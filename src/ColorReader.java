@@ -5,7 +5,7 @@ import java.util.List;
 public class ColorReader {
 
     public static void main(String[] args) {
-        //hexFinder("/Users/jacksonmoffet/git/Posterizer/res/color.html", "/Users/jacksonmoffet/git/Posterizer/res/colorComplex.txt");
+        //hexFinder("../res/color.html", "../res/colorComplex.txt");
         findDuplicateColor();
     }
 
@@ -55,7 +55,7 @@ public class ColorReader {
         List<String> alreadyIndexed = new ArrayList<>();
 
         try {
-            FileReader file = new FileReader("/Users/jacksonmoffet/git/Posterizer/res/colorComplex.txt");
+            FileReader file = new FileReader("../res/colorComplex.txt");
             BufferedReader reader = new BufferedReader(file);
             while ((line = reader.readLine()) != null) {
                 boolean foundDupe = false;
