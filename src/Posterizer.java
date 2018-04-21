@@ -178,7 +178,7 @@ public class Posterizer {
      * @throws IOException
      */
     private void populateScheme() throws IOException {
-        final FileReader file = new FileReader("/Users/jacksonmoffet/git/Posterizer/res/colorSimple.txt");
+        final FileReader file = new FileReader("../res/colorSimple.txt");
         final BufferedReader reader = new BufferedReader(file);
         String line;
         int count = 0;
