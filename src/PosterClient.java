@@ -12,9 +12,8 @@ public class PosterClient {
             inputPath = args[0];
             outputPath = args[1];
         } else {
-            //inputPath = "/Users/jacksonmoffet/Pictures/.jpg";
-            inputPath = "/.jpg";
-            outputPath = "/Users/jacksonmoffet/Pictures/SimpleSchemeTest.jpg";
+            inputPath = "input.jpg";
+            outputPath = "output.jpg";
 
         }
 
